@@ -1,6 +1,3 @@
-/*Write a program that defines a Shape class with a builder that receives the width and height as parameters.
-Defines two subclasses; Triangle and Rectangle that
-inherit from Shape and calculate respectively the area of the form area()*/
 <?php
 class Shape {
     public $width;
