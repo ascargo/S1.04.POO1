@@ -22,7 +22,7 @@ class Triangle extends Rectangle {
 }
 
 $shapeOne = new Rectangle(20, 10);
-echo $shapeOne;
+echo $shapeOne; echo __LINE__;
 $shapeTwo = new Triangle(5,2);
 echo $shapeTwo;
 ?>

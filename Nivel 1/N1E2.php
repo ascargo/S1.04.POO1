@@ -25,7 +25,6 @@ class Rectangle extends Shape {
         function area(){
             return $this->width * $this->height;
         }
-    
 }
 
 class Triangle extends Shape {

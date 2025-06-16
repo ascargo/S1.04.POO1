@@ -17,12 +17,7 @@ class Employee {
     }
 
     function shallPayTaxes() {
-       /* if ($this->salary >= 6000) {
-            echo $this->name . "does have to pay taxes.";
-        } else {
-            echo $this->name . " Does NOT have to pay taxes.";
-        } */
-       echo $this->name . " does " . ($this->salary <= 6000 ? "NOT" : "") . " have to pay taxes.<br>";
+    echo $this->name . " does " . ($this->salary <= 6000 ? "NOT" : "") . " have to pay taxes.<br>";
     }
 }
     
